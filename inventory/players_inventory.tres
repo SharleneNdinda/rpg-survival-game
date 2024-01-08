@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Inventory" load_steps=3 format=3 uid="uid://ddcto0qb5yxi2"]
+
+[ext_resource type="Resource" uid="uid://dw1yhlct3hmwt" path="res://inventory/items/apple.tres" id="1_86pv6"]
+[ext_resource type="Script" path="res://inventory/inventory.gd" id="2_0xgqy"]
+
+[resource]
+script = ExtResource("2_0xgqy")
+items = Array[Resource("res://inventory/inventory_item.gd")]([ExtResource("1_86pv6"), ExtResource("1_86pv6"), null, null, null, null, null, null, null, null, null, null])

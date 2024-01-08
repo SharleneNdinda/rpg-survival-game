@@ -1,7 +1,8 @@
-[gd_scene load_steps=59 format=3 uid="uid://dh4gx1v4ug4xh"]
+[gd_scene load_steps=60 format=3 uid="uid://dh4gx1v4ug4xh"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_i4v0c"]
 [ext_resource type="Texture2D" uid="uid://10wpfpwbg3vu" path="res://assets/survivalgame-player-green.png" id="1_nbo4a"]
+[ext_resource type="Resource" uid="uid://ddcto0qb5yxi2" path="res://inventory/players_inventory.tres" id="2_o2tvs"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hmy5v"]
 atlas = ExtResource("1_nbo4a")
@@ -475,6 +476,7 @@ radius = 4.0
 [node name="player" type="CharacterBody2D"]
 position = Vector2(-3, 129)
 script = ExtResource("1_i4v0c")
+inv = ExtResource("2_o2tvs")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_pmoqi")

@@ -5,7 +5,6 @@ extends StaticBody2D
 func _ready():
 	fall_from_tree()
 
-
 func fall_from_tree():
 	$AnimationPlayer.play("apple_fall")
 
